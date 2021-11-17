@@ -1,0 +1,32 @@
+.location {
+  background-color: blue;
+  height: 150px;
+  width: 160px;
+  margin-left: 450px;
+  position: fixed;
+  top: -200px;
+  z-index: 1;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  border-radius: 20px;
+}
+.location p {
+  margin-top: 5px;
+}
+.location.active {
+  top: 0px;
+}/*# sourceMappingURL=location.css.map */

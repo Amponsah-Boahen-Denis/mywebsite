@@ -1,0 +1,9 @@
+.nav {
+  color: white;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+}/*# sourceMappingURL=navbar.css.map */

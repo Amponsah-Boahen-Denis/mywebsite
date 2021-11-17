@@ -1,0 +1,34 @@
+.contact {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+.contact .todo {
+  margin: 2px;
+}
+.contact .todo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 3px;
+  color: blue;
+}
+.contact .todo div button {
+  background-color: red;
+  color: white;
+  margin: 2px;
+}/*# sourceMappingURL=contact.css.map */

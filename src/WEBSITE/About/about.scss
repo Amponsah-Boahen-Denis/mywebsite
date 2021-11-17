@@ -1,0 +1,51 @@
+.div{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(../fotos/ttt.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;  
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    h1{ 
+    margin-top: 50px;
+        font-size: 25px;
+        color: gold;
+        font-style: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    p{
+        margin-top: 15px;
+        font-size: 18px;
+        max-width: 90vh;
+        min-width: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    h2{
+        color: gold;
+        align-self: center;
+        justify-self: center;
+        //margin-left:30vh;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    ul{
+        display: flex;
+        align-self: center;
+       // margin-left: 10vh;
+        li{
+            color: white;
+            margin-left: 30px;
+           font-size: 20px;
+           color: cyan;
+        }
+    }
+}
+
+    
+}

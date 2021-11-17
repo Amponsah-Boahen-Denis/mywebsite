@@ -1,0 +1,48 @@
+.menu {
+  background-color: black;
+  z-index: 1;
+  width: 200px;
+  opacity: 70%;
+  position: fixed;
+  top: 0px;
+  left: -200px;
+  height: 80vh;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+.menu.active {
+  left: 0px;
+}
+.menu .menude ul {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.menu .menude ul li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 70px;
+  height: 20px;
+}
+.menu .menude ul li:hover {
+  font-size: 23px;
+  color: gold;
+}
+.menu .menude ul li a {
+  text-decoration: none;
+  color: inherit;
+}/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,28 @@
+.hobbies{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),black;
+height:150px;
+width: 160px;
+margin-left:270px;
+position:fixed;
+top: -200px;
+z-index: 1;
+color: white;
+display: flex;
+justify-content: center;
+
+flex-direction: column;
+transition:all 0.3s ease-in;
+border-radius:20px;
+&.active{ 
+top:0px;
+}
+p{
+margin-left: 40px;
+margin-bottom: 3px;
+   
+}
+.n1{
+    margin-top: 40px;
+    color:gold;
+}
+}

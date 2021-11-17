@@ -1,0 +1,103 @@
+$tnscolors:white;
+.topbar{
+    color:white;
+    height: 50px;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),black;
+    z-index:3;
+    position: fixed;
+    top: 0;
+    display:flex;
+    flex-direction:row;
+    .humberg{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top:15px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+    
+       &.active{
+        .s1{
+            transform: rotate(40deg);
+            background-color: red;
+    }
+    .s2{
+    background-color: inherit;
+    }
+    .s3{
+            transform: rotate(-40deg);
+            background-color: red;
+    }
+       }
+       
+span{
+    background-color:white;
+    height:2px;
+    width: 20px;
+    margin: 2px;
+    transform-origin:left;
+    transition: all 1s ease;
+}
+
+
+    }
+    .topinfor{
+        margin-left: 150px;
+        display: flex;
+        flex-direction: row;
+        b{
+            position: relative;
+            margin-top: 10px;
+            height: 20px;
+            width: 20px;
+           font-size: 20px;
+            margin-left: 150px;
+            color:$tnscolors;
+           
+            &:hover{
+                color: gold;
+                font-size: 21px;
+                position: relative;
+                top: inherit;
+                cursor:none;
+                
+          
+            }
+            
+            }
+            
+        }
+        .im{  
+            height: 60px;
+            width: 250px;
+            i{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            margin-left: 200px; 
+           height: 10px;
+           width: 250px;
+           font-size: auto;
+            animation-name: sabout;
+            animation-duration:10s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+      
+        }}
+
+        @keyframes sabout {
+            0%{color: gold;}
+            25%{font-size: 18px;color: white;}
+            50%{font-size: 17px; color: gold;}
+            75%{font-size: 18px;color: white;}
+            100%{color: red;}
+        }
+
+    }
+       
+    
+    
+

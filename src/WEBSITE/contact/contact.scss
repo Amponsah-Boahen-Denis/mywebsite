@@ -1,0 +1,91 @@
+
+.contact{
+  background-color:green;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  *{
+    margin: 5px;
+  }
+  .div{
+    //width:50vh ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+  }
+  h3{
+    margin-left: 23%;
+    color: gold;
+  }
+  #cont{
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 50vh;
+    width: 45vh;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    *{
+      margin-left:15px;
+    }
+    #click{
+background-color: blue;
+color: white;
+    }
+    input{
+width: 35vh;
+height: 30px;
+border: hidden;
+background-color: wheat;
+
+    }
+    textarea{
+      width: 35vh;
+      height: 70px;
+      background-color: wheat;
+      border: hidden;
+    }
+  }
+  img{
+    width: 40px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 0;
+    
+  }
+  
+ #im{
+  width: 60px;
+  height: 40px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+ }
+  .goup{
+    img{
+      margin-top: 40px;
+      height: 40px;
+      width: 40px;
+      animation-name:anima;
+animation-duration:2s;
+animation-iteration-count: infinite;
+//animation-play-state: paused;
+animation-delay: 1s;
+    }
+
+   
+  }
+  @keyframes anima{
+    0%{transform: translateX(5px);}
+    25%{transform: translateY(5px);}
+    50%{transform: translateX(5px);}
+    75%{transform: translateY(5px);}
+    100%{transform: translateX(5px);}
+    }
+}
+
+

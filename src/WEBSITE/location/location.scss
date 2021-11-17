@@ -1,0 +1,22 @@
+.location{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),black;
+    height:150px;
+    width: 160px;
+    margin-left:450px;
+    position:fixed;
+    top: -200px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.3s ease-in;
+    border-radius:20px;
+    p{
+        margin-top: 5px;
+    }
+    &.active{ 
+    top:0px;
+    }
+    }
