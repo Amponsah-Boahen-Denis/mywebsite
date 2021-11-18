@@ -1,6 +1,6 @@
 
 .contact{
-  background-color:green;
+  background-color:greenyellow;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,15 +10,13 @@
     margin: 5px;
   }
   .div{
-    //width:50vh ;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-
   }
   h3{
     margin-left: 23%;
-    color: gold;
+    color: black;
   }
   #cont{
     display: flex;
@@ -45,10 +43,14 @@ background-color: wheat;
 
     }
     textarea{
-      width: 35vh;
-      height: 70px;
+     min-width: 35vh;
+     max-width:auto;
+      height:80px;
       background-color: wheat;
       border: hidden;
+    }
+    p{
+      color: blue;
     }
   }
   img{

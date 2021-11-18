@@ -8,10 +8,10 @@ function Home() {
          >
          
          <div className='img' >
-            <img src="/fotos/books.png" alt=""  />
+            <img src={require('./books.png').default} alt=""  />
              <marquee>learning constantly day and night. . .</marquee>
             </div>
-            <a href='#about'> <img src="/fotos/arrow.png" alt=""  /></a>
+            <a href='#about'> <img src={require('./arrow.png').default}alt=""  /></a>
              <div className='name' >
              <h1>Hello! I am</h1>
          <p>Amponsah Boahen Denis</p>

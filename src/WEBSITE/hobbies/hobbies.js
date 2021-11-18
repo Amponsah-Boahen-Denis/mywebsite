@@ -3,10 +3,12 @@ import './hobbies.scss'
 function Hobbies({eopen,esetopen}) {
     return (
         <div className={'hobbies ' + (eopen && 'active')}>
-           <p className='n1'>I like to:</p>
-           <p>Learn.</p>
-           <p>Watch movies.</p>
-           <p>Pray games.</p>
+            <div>
+            <p>-Listen to motivational songs.</p>
+           <p>-Test ideas.</p>
+           <p>-Read story books.</p>
+            </div>
+
         </div>
     )
 }
