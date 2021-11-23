@@ -61,7 +61,19 @@ margin-left:-10px;
     p{
         color:gold;
         font-size:25px;
+        transition:all 5s ease-in;
+        animation-name:nim;
+        animation-duration:4s;
+        animation-delay: 0.01s;
+       //animation-direction: ease-in;
 
+    }
+    @keyframes nim{
+       0%{font-size: 0px;}
+       25%{font-size: 10px;}
+        50%{font-size: 15px;}
+        75%{font-size: 35px;}
+        100%{font-size: 25px;}
     }
 
 }

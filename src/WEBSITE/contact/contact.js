@@ -43,16 +43,16 @@ function Contact() {
     </form>
           </div>
          
-         <div><img src="fotos/email.png" alt="" />:bdenis53@yahoo.com</div>
-         <div><img id='im'src="fotos/watsup.png"alt="" />:+233546636409</div>
-         <div><img src="fotos/contact.png" alt=""/>:+233546636409</div>
-         <div><img src="fotos/github.png" alt=""/>:Amponsah-Boahen-Denis</div>
+         <div><img src={require('./email.png').default} alt="" />:bdenis53@yahoo.com</div>
+         <div><img id='im'src={require('./watsup.png').default} alt="" />:+233546636409</div>
+         <div><img src={require('./contact.png').default} alt=""/>:+233546636409</div>
+         <div><img src={require('./github.png').default} alt=""/>:Amponsah-Boahen-Denis</div>
 
         </div>
         
 
            <div classname='goup'>
-             <a href="#home"><img src="fotos/arrowup.png" alt="" /></a>
+             <a href="#home"><img src={require('./arrowup.png').default} alt="" /></a>
 
              </div> 
         </div>

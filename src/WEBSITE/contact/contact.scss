@@ -1,11 +1,13 @@
 
 .contact{
-  background-color:greenyellow;
+  background: rgb(22, 27, 68);
+ // background-color:linear-gradient(rgba(0,40,0,40),rgba(0,40,0,40),rgba(0,40,0,40),purple);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
   *{
     margin: 5px;
   }
@@ -16,9 +18,10 @@
   }
   h3{
     margin-left: 23%;
-    color: black;
+    color: white;
   }
   #cont{
+    color: black;
     display: flex;
     //justify-content: center;
     align-items: center;
@@ -40,6 +43,7 @@ width: 35vh;
 height: 30px;
 border: hidden;
 background-color: wheat;
+border-radius: 3px;
 
     }
     textarea{
@@ -48,6 +52,7 @@ background-color: wheat;
       height:80px;
       background-color: wheat;
       border: hidden;
+      border-radius: 3px;
     }
     p{
       color: blue;
@@ -72,7 +77,7 @@ background-color: wheat;
       margin-top: 40px;
       height: 40px;
       width: 40px;
-      animation-name:anima;
+      animation-name:anim;
 animation-duration:2s;
 animation-iteration-count: infinite;
 //animation-play-state: paused;
@@ -81,7 +86,7 @@ animation-delay: 1s;
 
    
   }
-  @keyframes anima{
+  @keyframes anim{
     0%{transform: translateX(5px);}
     25%{transform: translateY(5px);}
     50%{transform: translateX(5px);}

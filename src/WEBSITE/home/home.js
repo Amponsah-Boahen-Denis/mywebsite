@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.scss';
-import mage from  '../fotos/ae.jpg';
+import mage from  '../fotos/back.jpg';
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
             <a href='#about'> <img src={require('./arrow.png').default}alt=""  /></a>
              <div className='name' >
              <h1>Hello! I am</h1>
-         <p>Amponsah Boahen Denis</p>
+         <p>Amponsah Denis Boahen</p>
          <span>(A Software Developer)</span>
         
 

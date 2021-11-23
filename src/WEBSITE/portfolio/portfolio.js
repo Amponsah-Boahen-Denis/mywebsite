@@ -7,7 +7,7 @@ function Portfolio() {
         <h2>My works</h2>
         <h2>#1</h2><b>Business Start site</b>
         <div id='first'>
-            <img src="fotos/ecommerce.png" alt="" />
+            <img src={require('./start-up.png').default} alt="" />
 <div> 
     <h3>Description</h3>
     <p>This is a website designed  by me.I did create the website purposely to help
@@ -19,7 +19,7 @@ type of business.
        <i>tools</i>
        <span>.React.js .github .Html .javascript .sass</span><br/>
        
-       <button> <a href='https://github.com/Amponsah-Boahen-Denis/start-business.git' > check code</a></button>   <button><a href='https://amponsah-boahen-denis.github.io/start-up-deploy/' >check it Live</a></button>      
+       <button> <a target='_blank' href='https://github.com/Amponsah-Boahen-Denis/start-business.git' > check code</a></button>   <button><a target='_blank' href='https://amponsah-boahen-denis.github.io/start-up-deploy/' >check it Live</a></button>      
 
 </div>
 
@@ -40,14 +40,14 @@ type of business.
        <i>tools</i>
        <span>.React.js .github .Html .javascript .sass</span><br/>
        
-        <button><a href='https://github.com/Amponsah-Boahen-Denis/E-commerce.git' >check code</a></button> <button><a href='https://amponsah-boahen-denis.github.io/e-commerce-deployed/' >check it Live</a></button>
+        <button><a  target='_blank' href='https://github.com/Amponsah-Boahen-Denis/E-commerce.git' >check code</a></button> <button><a target='_blank' href='https://amponsah-boahen-denis.github.io/e-commerce-deployed/' >check it Live</a></button>
 
 </div>
-<img src="fotos/cars.png" alt="" />
+<img src={require('./cars.png').default} alt="" />
         </div>
         <h2>#3</h2> <b>Customers Records App</b>
         <div className='third'>
-        <img src="fotos/manager.jpg" alt="" />
+        <img src={require('./manager.jpg').default} alt="" />
         <div> 
     <h3>Description</h3>
     <p>This is a records app that helps track your customers whether
@@ -60,7 +60,7 @@ type of business.
        <i>tools</i>
        <span>.React.js .github .Html .javascript .sass</span> 
        </p>
-        <button><a href='https://github.com/Amponsah-Boahen-Denis/Records-Tracker.git' >check code</a></button> <button><a href=' https://amponsah-boahen-denis.github.io/recordstracker-deploy/' >check it Live</a></button>
+        <button><a target='_blank' href='https://github.com/Amponsah-Boahen-Denis/Records-Tracker.git' >check code</a></button> <button><a target='_blank' href=' https://amponsah-boahen-denis.github.io/recordstracker-deploy/' >check it Live</a></button>
 </p>
 </div>
 
